@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.mood-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.mood-btn {
+  font-size: 2rem;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mood-btn.selected {
+  border-color: #ffa459;
+  transform: scale(1.2);
+}
+
+#submitMood {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ffa459;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.timeline-entry {
+  padding: 10px;
+  margin: 5px 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0000001a;
+}
